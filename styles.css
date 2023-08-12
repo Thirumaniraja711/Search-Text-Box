@@ -1,0 +1,142 @@
+/* Font StyleSheet*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:ital,wght@1,700&display=swap');
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F97F51;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+
+}
+
+.form-group {
+    width: 500px;
+    height: 60px;
+    position: relative;
+}
+
+.form-group .input {
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+
+.form-group .input:focus {
+
+    border: 2px solid orangered;
+
+}
+
+.form-group .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 100%;
+    z-index: 1;
+    cursor: pointer;
+    border: none;
+    background-color: orangered;
+    font-size: 20px;
+    color: white;
+}
+
+.form-group .btn:hover {
+    background-color: blueviolet;
+}
+
+.btn-1 .input {
+    padding-right: 80px;
+}
+
+.btn-1 .btn {
+
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.btn-2 .input {
+    padding-left: 80px;
+}
+
+.btn-2 .btn {
+
+    left: 0;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+
+}
+
+.btn-3 .input {
+    border-radius: 50px;
+    padding-right: 80px;
+}
+
+.btn-3 .btn {
+
+    border-radius: 50px;
+
+}
+
+.btn-4 .input {
+    padding-left: 80px;
+    border-radius: 50px;
+}
+
+.btn-4 .btn {
+
+    left: 0;
+    border-radius: 50px;
+
+
+}
+
+.btn-5 .input {
+
+    padding-right: 135px;
+
+}
+
+.btn-5 .btn {
+
+    width: 125px;
+    height: 45px;
+    top: 8px;
+    right: 6px;
+}
+
+.btn-6 .input {
+
+    padding-right: 135px;
+
+}
+
+.btn-6 .btn {
+
+    border-radius: 25px;
+    width: 125px;
+    height: 45px;
+    top: 8px;
+    right: 6px;
+
+}
